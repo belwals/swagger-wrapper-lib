@@ -1,0 +1,52 @@
+{
+  "properties": [
+    {
+      "name": "swagger.wrapper.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Allow control for the swagger wrapper auto configuration",
+      "sourceType": "com.exp.swagger.configuration.SwaggerConfigProperties"
+    },
+    {
+      "name": "swagger.wrapper.basePackage",
+      "type": "java.lang.String",
+      "description": "Create API docs only for rest controller which are on and under the base package",
+      "sourceType": "com.exp.swagger.configuration.SwaggerConfigProperties"
+    },
+    {
+      "name": "swagger.wrapper.appName",
+      "type": "java.lang.String",
+      "description": "Application for which API doc needs to be configured",
+      "sourceType": "com.exp.swagger.configuration.SwaggerConfigProperties"
+    },
+    {
+      "name": "swagger.wrapper.appDescription",
+      "type": "java.lang.String",
+      "description": "Description of application",
+      "sourceType": "com.exp.swagger.configuration.SwaggerConfigProperties"
+    },
+    {
+      "name": "swagger.wrapper.appVersion",
+      "type": "java.lang.String",
+      "description": "Application's version",
+      "sourceType": "com.exp.swagger.configuration.SwaggerConfigProperties"
+    },
+    {
+      "name": "swagger.wrapper.teamName",
+      "type": "java.lang.String",
+      "description": "Team name who is Own the app",
+      "sourceType": "com.exp.swagger.configuration.SwaggerConfigProperties"
+    },
+    {
+      "name": "swagger.wrapper.teamWiki",
+      "type": "java.lang.String",
+      "description": "Application owning team's  wiki url",
+      "sourceType": "com.exp.swagger.configuration.SwaggerConfigProperties"
+    },
+    {
+      "name": "swagger.wrapper.teamEmail",
+      "type": "java.lang.String",
+      "description": "Application owning team's  email url",
+      "sourceType": "com.exp.swagger.configuration.SwaggerConfigProperties"
+    }
+  ]
+}
